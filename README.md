@@ -26,7 +26,7 @@ var quotes = new MarkovChain(fs.readFileSync('./quotes.txt', 'utf8'));
 ```
 
 You may want to edit these values to the desired effect
-``min`` and ``max`` are the minimum and maximum size of the markov chain
+``min`` and ``max`` are the minimum and maximum size of the markov chain.
 ``minutes`` is the interval in which the bot updates it's bio to a markov chain
 ```
 var min = 10;
@@ -34,7 +34,7 @@ var max = 20;
 var minutes = 10;
 ```
 
-Another value to edit is the hashtag the bot listens for, try and make it unique
+Another value to edit is the hashtag the bot listens for, try and make it unique.
 just change the ``#MarkovChain`` text to your desire
 ```
 Twitter.stream('statuses/filter', {track: '#MarkovChain'}, function(stream) {
