@@ -39,7 +39,7 @@ var Twitter = new TwitterPackage(secret);
 var recieveName;
 
 
-Twitter.stream('statuses/filter', {track: '#BerserkMarkov'}, function(stream) {
+Twitter.stream('statuses/filter', {track: '#MarkovChain'}, function(stream) {
   console.log("READY")
   stream.on('data', function(tweet) {
     console.log("\nUser: @" + tweet.user.screen_name + "\nSent: " + tweet.text);
