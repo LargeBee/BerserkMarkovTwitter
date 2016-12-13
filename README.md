@@ -26,7 +26,7 @@ var quotes = new MarkovChain(fs.readFileSync('./quotes.txt', 'utf8'));
 ```
 
 You may want to edit these values to the desired effect
-``min`` and ``max`` are the minimum and maximum size of the markov chain.
+``min`` and ``max`` are the minimum and maximum number of words in the markov chain.
 ``minutes`` is the interval in which the bot updates it's bio to a markov chain
 ```
 var min = 10;
