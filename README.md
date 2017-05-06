@@ -46,5 +46,3 @@ The bot should all be setup now, all you need to do is open command line to the 
 node app.js
 ```
 And now your bot should be up and running ready to make markov chains
-
-Remember to check out my markov chain bot here [Bot](https://twitter.com/BerserkMemes)
