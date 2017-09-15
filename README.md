@@ -1,5 +1,5 @@
 # A Markov Chain Twitter Bot
-I used to have a twitter bot that used this for berserk stuff but the quote file can be replaced with anything
+I used to have a twitter bot for a brief period, use this if you want
 
 ## SETUP
 Node.js must be installed on your system if it isn't go here [NodeJs](https://nodejs.org/en/)
